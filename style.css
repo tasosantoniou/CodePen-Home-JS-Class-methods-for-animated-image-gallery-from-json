@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaffd0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 10px solid white;
+  position: absolute;
+  background-size: cover;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container {
+  top: 50px;
+  position: relative;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f38181;
+  fill: white;
+  border: none;
+  z-index: 200;
+}
+
+#next {
+  top: 60%;
+  left: 90%;
+}
+
+#previous {
+  top: 60%;
+  left: -10%;
+}
