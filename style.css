@@ -22,23 +22,22 @@ img {
   height: 300px;
 }
 
+#btnContainer {
+  position: relative;
+  margin: auto;
+  width: 300px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+   z-index: 1000;
+}
+
 button {
-  position: absolute;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background-color: #f38181;
   fill: white;
   border: none;
-  z-index: 200;
-}
-
-#next {
-  top: 60%;
-  left: 90%;
-}
-
-#previous {
-  top: 60%;
-  left: -10%;
+ 
 }
