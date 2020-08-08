@@ -7,6 +7,7 @@ fetch(url)
       let image = document.createElement("IMG");
       image.src = data[i].download_url;
       image.id = `image${i}`;
+      image.loading = 'lazy'
       imagesAr[i] = image;
       document.querySelector("#container").append(image);
       imageNum = data.length;
